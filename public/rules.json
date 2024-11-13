@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://doodles.google/"
+        "url": "https://www.google.com/#redirect-success"
       }
     },
     "condition": {
-      "urlFilter": "https://www.google.com/",
+      "urlFilter": "https://www.google.com/#redirect-test",
       "resourceTypes": ["main_frame"]
     }
   }

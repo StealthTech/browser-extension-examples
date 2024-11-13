@@ -21,7 +21,9 @@
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess",
-    "declarativeNetRequestFeedback"
+    "declarativeNetRequestFeedback",
+    "webNavigation",
+    "scripting"
   ],
   "host_permissions": [
     "<all_urls>"

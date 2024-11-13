@@ -11,6 +11,8 @@ export default defineConfig({
             input: {
                 popup: 'src/views/popup/index.html',
                 options: 'src/views/options/index.html',
+                devtools: 'src/views/devtools/index.html',
+                devtoolsPanelMain: 'src/views/devtools/main/index.html'
             },
         },
     },

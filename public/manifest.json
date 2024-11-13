@@ -1,7 +1,7 @@
 {
   "name": "Тестовое расширение",
   "manifest_version": 3,
-  "devtools_page": "src/views/devtools.html",
+  "devtools_page": "src/views/devtools/index.html",
   "options_page": "src/views/options/index.html",
   "action": {
     "default_popup": "src/views/popup/index.html"

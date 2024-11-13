@@ -1,0 +1,27 @@
+{
+  "name": "Тестовое расширение",
+  "manifest_version": 3,
+  "devtools_page": "src/views/devtools.html",
+  "options_page": "src/views/options/index.html",
+  "action": {
+    "default_popup": "src/views/popup/index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "webRequest",
+    "webNavigation",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback",
+    "history",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "version": "1.0.0"
+}
+

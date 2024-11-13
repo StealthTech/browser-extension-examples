@@ -46,3 +46,7 @@ npm run build
 4. Перейдите на [chrome://extensions/](chrome://extensions/)
 5. Нажмите на "Загрузить распакованное расширение"
 6. Укажите путь до папки `dist`
+
+## Дополнительные материалы
+- [Большое количество примеров на использование отдельных API](https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/api-samples)
+- [Неприлично большое количество примеров прикладных сниппетов с использованием комбинаций API](https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/functional-samples)

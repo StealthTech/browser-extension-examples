@@ -1,13 +1,14 @@
 {
-  "name": "example",
+  "name": "example-extension",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "node scripts/release.js"
   },
   "dependencies": {
     "react": "^18.3.1",

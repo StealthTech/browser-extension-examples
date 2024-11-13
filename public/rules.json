@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://doodles.google/"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://www.google.com/",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

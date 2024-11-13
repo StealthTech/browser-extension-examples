@@ -6,18 +6,22 @@
   "action": {
     "default_popup": "src/views/popup/index.html"
   },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
   "permissions": [
-    "activeTab",
-    "cookies",
-    "webRequest",
-    "webNavigation",
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess",
-    "declarativeNetRequestFeedback",
-    "history",
-    "storage",
-    "scripting",
-    "tabs"
+    "declarativeNetRequestFeedback"
   ],
   "host_permissions": [
     "<all_urls>"
